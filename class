@@ -1,0 +1,46 @@
+public class Donations {
+
+	private String pCreationDate;
+	private String pName;
+	private String pLocation;
+	private int pBeneficiaries;
+	
+	public Donations(String creationDate, String name, String location, int beneficiaries) {
+        pCreationDate = creationDate;
+        pName = name;
+        pLocation = location;
+        pBeneficiaries = beneficiaries;
+    }
+    public String getCreationDate() {
+		return pCreationDate;
+	}
+
+	public void setCreationDate(String pCreationDate) {
+		this.pCreationDate = pCreationDate;
+	}
+
+	public String getName() {
+		return pName;
+	}
+
+	public void setName(String pName) {
+		this.pName = pName;
+	}
+
+	public String getLocation() {
+		return pLocation;
+	}
+
+	public void setLocation(String pLocation) {
+		this.pLocation = pLocation;
+	}
+
+	public int getBeneficiaries() {
+		return pBeneficiaries;
+	}
+
+	public void setBeneficiaries(int pBeneficiaries) {
+		this.pBeneficiaries = pBeneficiaries;
+	}
+	
+}
